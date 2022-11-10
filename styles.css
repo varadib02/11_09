@@ -2,13 +2,34 @@
 body {
   background-size: cover;
   font-weight: 500;
+  background-image: url(physics_back.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
-span{
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+img{
+  float: right;
+  width: 260px;
+  padding: 20px;
+}
+
+.teller{
   font-weight: 800;
 }
-span:hover{
+.teller:hover{
   color: red;
+}
+
+.italic{
+  font-style: italic;
 }
 
 p {
@@ -37,8 +58,18 @@ table {
   margin: auto;
 }
 
-
-
 ul {
   list-style-image: url(physics_icon.png);
+  border-bottom: 1px gray;
+  padding: 10px;
+}
+
+th{
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+td{
+  text-align: center;
 }
